@@ -33,11 +33,18 @@ button {
 
 	/*  Challenge: can you make the navigation links orange on hover? */
 }
+.red-buttons {
+	background-color: #ce5f31;
+}
+
+#button-text-red {
+	color: #ce5f31;
+}
 
 /* Buttons */
 /* INSERT BUTTON STYLES HERE */
-
-
+#
+}
 /* Alert */
 .alert {
 	position: relative;
