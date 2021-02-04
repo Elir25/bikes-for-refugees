@@ -73,6 +73,20 @@ button {
 .jumbotron {
 	border-radius: 0;
 }
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-bottom: 10%;
+}
+.flex-container div {
+   width: 20%;
+   height: 100px;
+   padding: 10px;
+   background-color: gray;
+   border-style: solid;
+   border-width: 1px;
+}
 
 /* Headings */
 .heading-underline {
@@ -143,5 +157,12 @@ button {
 
 	.navbar-brand > img {
 	   max-height: 80px;
+	}
+}
+@media screen and (max-width: 320px) {
+	
+   h1 {
+     font-size: 0.9em;
+     color: #ce5f31;
 	}
 }
